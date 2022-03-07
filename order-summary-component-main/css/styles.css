@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  background: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  width: 26rem;
+  height: auto;
+  margin: auto;
+  top: 5rem;
+  display: block;
+  position: relative;
+  justify-content: center;
+  border-radius: 16px;
+}
+.card > .card-img-top {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 20px 0px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-body {
+  width: auto;
+  height: auto;
+  margin: 0px 26px 26px 26px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card-title {
+  margin: 0px 0px 14px 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.text-upper > .card-text {
+  margin: 0px 0px 14px 0px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.text-under {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 26px 0px;
+  padding: 14px;
+  display: inline-flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.icon-annual-plan {
+  width: 100%;
+  height: auto;
+  display: flex;
+  float: left;
+  vertical-align: middle;
+}
+.icon-annual-plan > img {
+  width: 70px;
+  height: 50px;
+  margin: auto;
+  padding: 0px 0px 0px 18px;
+}
+.text-frame {
+  width: 100%;
+  margin: 0px 0px 0px 20px;
+  padding: 10px 0px 0px 0px;
+  display: inline-block;
+}
+.annual-plan {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 900;
+}
+.price {
+  margin: 6px 0px 0px 0px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-bt {
+  width: 80px;
+  height: 35px;
+  margin: auto auto auto 12px;
+  text-decoration: underline;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+
+.change-bt:hover {
+  color: hsl(224, 23%, 55%);
+}
+
+.button-payment {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.proceed-bt {
+  width: 100%;
+  height: 45px;
+  margin: 0px 0px 12px 0px;
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.192);
+  border-radius: 8px;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+}
+.proceed-bt:hover {
+  box-shadow: 0px 8px 15px hsla(241, 100%, 76%, 0.432);
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(241, 100%, 76%);
+}
+
+.cancel-bt {
+  width: auto;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 8px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
