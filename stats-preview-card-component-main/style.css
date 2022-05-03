@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400;700&display=swap");
+
+body {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  background-color: hsl(233, 47%, 7%) !important;
+}
+
+main {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 10rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(244, 38%, 16%) !important;
+}
+
+.card-body {
+  padding: 2rem 3rem 0 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-family: "Inter";
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+.card-title > .span-text {
+  font-family: "Inter";
+  font-weight: 700;
+  color: hsl(277, 64%, 61%);
+}
+
+.card-text {
+  font-size: 15px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.sub-view {
+  font-size: 15px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.sub-view > h3 {
+  font-family: "Inter";
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 8px 8px;
+  filter: invert(15%) sepia(15%) saturate(6139%) hue-rotate(240deg)
+    brightness(65%) contrast(90%);
+}
